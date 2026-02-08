@@ -45,12 +45,12 @@
             _lblTemp = new Label();
             lblStatus = new Label();
             tableLayoutPanel5 = new TableLayoutPanel();
-            lbltemperatura = new Label();
+            label6 = new Label();
+            label2 = new Label();
             lblPorta = new Label();
+            lbltemperatura = new Label();
             contextMenuStrip1 = new ContextMenuStrip(components);
             contextMenuStrip2 = new ContextMenuStrip(components);
-            label2 = new Label();
-            label6 = new Label();
             tableLayoutPanel1.SuspendLayout();
             tableLayoutPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
@@ -62,45 +62,43 @@
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.ColumnCount = 2;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 344F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 393F));
             tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 0);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 1, 0);
             tableLayoutPanel1.Dock = DockStyle.Fill;
             tableLayoutPanel1.Location = new Point(0, 0);
-            tableLayoutPanel1.Margin = new Padding(3, 2, 3, 2);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 1;
             tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 536F));
-            tableLayoutPanel1.Size = new Size(916, 536);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 715F));
+            tableLayoutPanel1.Size = new Size(1047, 715);
             tableLayoutPanel1.TabIndex = 0;
             // 
             // tableLayoutPanel2
             // 
             tableLayoutPanel2.ColumnCount = 1;
-            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 339F));
+            tableLayoutPanel2.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 387F));
             tableLayoutPanel2.Controls.Add(label1, 0, 1);
             tableLayoutPanel2.Controls.Add(_log, 0, 2);
             tableLayoutPanel2.Controls.Add(pictureBox1, 0, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 2);
-            tableLayoutPanel2.Margin = new Padding(3, 2, 3, 2);
+            tableLayoutPanel2.Location = new Point(3, 3);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 3;
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 136F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 38F));
-            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 352F));
-            tableLayoutPanel2.Size = new Size(338, 532);
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 181F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 51F));
+            tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Absolute, 469F));
+            tableLayoutPanel2.Size = new Size(387, 709);
             tableLayoutPanel2.TabIndex = 1;
             // 
             // label1
             // 
             label1.Dock = DockStyle.Fill;
             label1.Font = new Font("Segoe UI Semibold", 16.2F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(3, 136);
+            label1.Location = new Point(3, 181);
             label1.Name = "label1";
-            label1.Size = new Size(333, 38);
+            label1.Size = new Size(381, 51);
             label1.TabIndex = 0;
             label1.Text = "RETORNO DA BITDOGLAB";
             label1.TextAlign = ContentAlignment.MiddleCenter;
@@ -108,11 +106,10 @@
             // _log
             // 
             _log.Dock = DockStyle.Fill;
-            _log.Location = new Point(3, 176);
-            _log.Margin = new Padding(3, 2, 3, 2);
+            _log.Location = new Point(3, 235);
             _log.Multiline = true;
             _log.Name = "_log";
-            _log.Size = new Size(333, 354);
+            _log.Size = new Size(381, 471);
             _log.TabIndex = 2;
             _log.Text = "AGUARDANDO...";
             _log.TextAlign = HorizontalAlignment.Center;
@@ -121,10 +118,9 @@
             // 
             pictureBox1.Dock = DockStyle.Fill;
             pictureBox1.Image = Properties.Resources.EmbarcaTech;
-            pictureBox1.Location = new Point(3, 2);
-            pictureBox1.Margin = new Padding(3, 2, 3, 2);
+            pictureBox1.Location = new Point(3, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(333, 132);
+            pictureBox1.Size = new Size(381, 175);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
@@ -137,14 +133,13 @@
             tableLayoutPanel3.Controls.Add(lblStatus, 0, 1);
             tableLayoutPanel3.Controls.Add(tableLayoutPanel5, 0, 2);
             tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(347, 2);
-            tableLayoutPanel3.Margin = new Padding(3, 2, 3, 2);
+            tableLayoutPanel3.Location = new Point(396, 3);
             tableLayoutPanel3.Name = "tableLayoutPanel3";
             tableLayoutPanel3.RowCount = 3;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 100F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 133F));
             tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 100F));
-            tableLayoutPanel3.Size = new Size(566, 532);
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 133F));
+            tableLayoutPanel3.Size = new Size(648, 709);
             tableLayoutPanel3.TabIndex = 2;
             // 
             // tableLayoutPanel4
@@ -160,13 +155,12 @@
             tableLayoutPanel4.Controls.Add(label3, 0, 0);
             tableLayoutPanel4.Controls.Add(_lblTemp, 2, 1);
             tableLayoutPanel4.Dock = DockStyle.Fill;
-            tableLayoutPanel4.Location = new Point(3, 2);
-            tableLayoutPanel4.Margin = new Padding(3, 2, 3, 2);
+            tableLayoutPanel4.Location = new Point(3, 3);
             tableLayoutPanel4.Name = "tableLayoutPanel4";
             tableLayoutPanel4.RowCount = 2;
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 31.87773F));
             tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 68.12227F));
-            tableLayoutPanel4.Size = new Size(560, 96);
+            tableLayoutPanel4.Size = new Size(642, 127);
             tableLayoutPanel4.TabIndex = 0;
             // 
             // _lblPres
@@ -175,10 +169,10 @@
             _lblPres.Dock = DockStyle.Fill;
             _lblPres.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             _lblPres.ForeColor = Color.White;
-            _lblPres.Location = new Point(186, 30);
+            _lblPres.Location = new Point(214, 40);
             _lblPres.Margin = new Padding(0);
             _lblPres.Name = "_lblPres";
-            _lblPres.Size = new Size(186, 66);
+            _lblPres.Size = new Size(214, 87);
             _lblPres.TabIndex = 5;
             _lblPres.Text = "--";
             _lblPres.TextAlign = ContentAlignment.MiddleCenter;
@@ -189,10 +183,10 @@
             _lblDist.Dock = DockStyle.Fill;
             _lblDist.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             _lblDist.ForeColor = Color.White;
-            _lblDist.Location = new Point(0, 30);
+            _lblDist.Location = new Point(0, 40);
             _lblDist.Margin = new Padding(0);
             _lblDist.Name = "_lblDist";
-            _lblDist.Size = new Size(186, 66);
+            _lblDist.Size = new Size(214, 87);
             _lblDist.TabIndex = 4;
             _lblDist.Text = "--";
             _lblDist.TextAlign = ContentAlignment.MiddleCenter;
@@ -201,20 +195,20 @@
             // 
             label5.Dock = DockStyle.Fill;
             label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label5.Location = new Point(375, 0);
+            label5.Location = new Point(431, 0);
             label5.Name = "label5";
-            label5.Size = new Size(182, 30);
+            label5.Size = new Size(208, 40);
             label5.TabIndex = 3;
-            label5.Text = "DISTÂNCIA";
+            label5.Text = "TEMPERATURA";
             label5.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label4
             // 
             label4.Dock = DockStyle.Fill;
             label4.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label4.Location = new Point(189, 0);
+            label4.Location = new Point(217, 0);
             label4.Name = "label4";
-            label4.Size = new Size(180, 30);
+            label4.Size = new Size(208, 40);
             label4.TabIndex = 2;
             label4.Text = "PRESSÃO";
             label4.TextAlign = ContentAlignment.MiddleCenter;
@@ -225,9 +219,9 @@
             label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label3.Location = new Point(3, 0);
             label3.Name = "label3";
-            label3.Size = new Size(180, 30);
+            label3.Size = new Size(208, 40);
             label3.TabIndex = 1;
-            label3.Text = "TEMPERATURA";
+            label3.Text = "DISTÂNCIA";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // _lblTemp
@@ -236,10 +230,10 @@
             _lblTemp.Dock = DockStyle.Fill;
             _lblTemp.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             _lblTemp.ForeColor = Color.White;
-            _lblTemp.Location = new Point(372, 30);
+            _lblTemp.Location = new Point(428, 40);
             _lblTemp.Margin = new Padding(0);
             _lblTemp.Name = "_lblTemp";
-            _lblTemp.Size = new Size(188, 66);
+            _lblTemp.Size = new Size(214, 87);
             _lblTemp.TabIndex = 0;
             _lblTemp.Text = "--";
             _lblTemp.TextAlign = ContentAlignment.MiddleCenter;
@@ -250,9 +244,9 @@
             lblStatus.Dock = DockStyle.Fill;
             lblStatus.Font = new Font("Segoe UI", 19.8000011F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblStatus.ForeColor = Color.White;
-            lblStatus.Location = new Point(3, 100);
+            lblStatus.Location = new Point(3, 133);
             lblStatus.Name = "lblStatus";
-            lblStatus.Size = new Size(560, 332);
+            lblStatus.Size = new Size(642, 443);
             lblStatus.TabIndex = 5;
             lblStatus.Text = "STATUS";
             lblStatus.TextAlign = ContentAlignment.MiddleCenter;
@@ -267,27 +261,42 @@
             tableLayoutPanel5.Controls.Add(lblPorta, 0, 1);
             tableLayoutPanel5.Controls.Add(lbltemperatura, 1, 1);
             tableLayoutPanel5.Dock = DockStyle.Fill;
-            tableLayoutPanel5.Location = new Point(3, 435);
+            tableLayoutPanel5.Location = new Point(3, 580);
+            tableLayoutPanel5.Margin = new Padding(3, 4, 3, 4);
             tableLayoutPanel5.Name = "tableLayoutPanel5";
             tableLayoutPanel5.RowCount = 2;
             tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Absolute, 53F));
-            tableLayoutPanel5.Size = new Size(560, 94);
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Absolute, 71F));
+            tableLayoutPanel5.Size = new Size(642, 125);
             tableLayoutPanel5.TabIndex = 6;
             // 
-            // lbltemperatura
+            // label6
             // 
-            lbltemperatura.BackColor = SystemColors.Control;
-            lbltemperatura.Dock = DockStyle.Fill;
-            lbltemperatura.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lbltemperatura.ForeColor = Color.Black;
-            lbltemperatura.Location = new Point(280, 41);
-            lbltemperatura.Margin = new Padding(0);
-            lbltemperatura.Name = "lbltemperatura";
-            lbltemperatura.Size = new Size(280, 53);
-            lbltemperatura.TabIndex = 6;
-            lbltemperatura.Text = "--";
-            lbltemperatura.TextAlign = ContentAlignment.MiddleCenter;
+            label6.BackColor = SystemColors.Control;
+            label6.Dock = DockStyle.Fill;
+            label6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label6.ForeColor = Color.Black;
+            label6.Location = new Point(321, 0);
+            label6.Margin = new Padding(0);
+            label6.Name = "label6";
+            label6.Size = new Size(321, 54);
+            label6.TabIndex = 8;
+            label6.Text = "TEMPERATURA EXCEDEU O LIMITE";
+            label6.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label2
+            // 
+            label2.BackColor = SystemColors.Control;
+            label2.Dock = DockStyle.Fill;
+            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.ForeColor = Color.Black;
+            label2.Location = new Point(0, 0);
+            label2.Margin = new Padding(0);
+            label2.Name = "label2";
+            label2.Size = new Size(321, 54);
+            label2.TabIndex = 7;
+            label2.Text = "PORTA ABERTA HOJE";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // lblPorta
             // 
@@ -295,13 +304,27 @@
             lblPorta.Dock = DockStyle.Fill;
             lblPorta.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblPorta.ForeColor = Color.Black;
-            lblPorta.Location = new Point(0, 41);
+            lblPorta.Location = new Point(0, 54);
             lblPorta.Margin = new Padding(0);
             lblPorta.Name = "lblPorta";
-            lblPorta.Size = new Size(280, 53);
+            lblPorta.Size = new Size(321, 71);
             lblPorta.TabIndex = 5;
             lblPorta.Text = "--";
             lblPorta.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // lbltemperatura
+            // 
+            lbltemperatura.BackColor = SystemColors.Control;
+            lbltemperatura.Dock = DockStyle.Fill;
+            lbltemperatura.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lbltemperatura.ForeColor = Color.Black;
+            lbltemperatura.Location = new Point(321, 54);
+            lbltemperatura.Margin = new Padding(0);
+            lbltemperatura.Name = "lbltemperatura";
+            lbltemperatura.Size = new Size(321, 71);
+            lbltemperatura.TabIndex = 6;
+            lbltemperatura.Text = "--";
+            lbltemperatura.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // contextMenuStrip1
             // 
@@ -315,42 +338,13 @@
             contextMenuStrip2.Name = "contextMenuStrip2";
             contextMenuStrip2.Size = new Size(61, 4);
             // 
-            // label2
-            // 
-            label2.BackColor = SystemColors.Control;
-            label2.Dock = DockStyle.Fill;
-            label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label2.ForeColor = Color.Black;
-            label2.Location = new Point(0, 0);
-            label2.Margin = new Padding(0);
-            label2.Name = "label2";
-            label2.Size = new Size(280, 41);
-            label2.TabIndex = 7;
-            label2.Text = "PORTA ABERTA HOJE";
-            label2.TextAlign = ContentAlignment.MiddleCenter;
-            // 
-            // label6
-            // 
-            label6.BackColor = SystemColors.Control;
-            label6.Dock = DockStyle.Fill;
-            label6.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.Black;
-            label6.Location = new Point(280, 0);
-            label6.Margin = new Padding(0);
-            label6.Name = "label6";
-            label6.Size = new Size(280, 41);
-            label6.TabIndex = 8;
-            label6.Text = "TEMPERATURA EXCEDEU O LIMITE";
-            label6.TextAlign = ContentAlignment.MiddleCenter;
-            // 
             // ControleTemperatura
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(916, 536);
+            ClientSize = new Size(1047, 715);
             Controls.Add(tableLayoutPanel1);
             Icon = (Icon)resources.GetObject("$this.Icon");
-            Margin = new Padding(3, 2, 3, 2);
             Name = "ControleTemperatura";
             Text = "CONTROLE DE TEMPERATURA AMBIENTE";
             tableLayoutPanel1.ResumeLayout(false);
